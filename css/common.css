@@ -1,0 +1,136 @@
+body{
+  padding-top:80px;
+  padding-bottom:80px;
+  word-break: keep-all;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+img{
+  display:block;
+}
+.title_one{
+  font-size:24px;
+  font-weight:900;
+  text-align: center;
+  margin-bottom:10px;
+  border:3px solid #e2e2e2;
+  width:100%;
+  max-width:200px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:30px;
+  background-color: #abb4b2;
+  color:#332632 ;
+  transition: all 2.0s ease-in-out;
+  
+}
+.title_one:hover{
+  transform: scale(0.5) translateX(100%);
+  opacity:0;
+ 
+  color:#fafafa;
+  background-color: #020202;
+}
+.page-title{
+  font-size:50px;
+  font-weight:800;
+  line-height:1.3;
+  color:#13B491;
+  text-align: center;
+  margin-bottom:20px;
+}
+.page-subtitle{
+
+  width:240px;
+  height:50px;
+  border:5px solid #FFA32D;
+  border-radius:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:24px;
+  font-weight: 700;
+  color:#FFA32D;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+
+.btn{
+
+  max-width:500px;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:50px;
+  font-weight:700;
+  cursor:pointer;
+  border-radius:20px;
+  margin-bottom:35px;
+  color:#ffffff;
+
+  margin-left:auto;
+  margin-right:auto;
+  transition: all 0.1s ease-in-out;
+} 
+
+.btn-orange{
+  background-color: #FFA32D;
+  box-shadow: 0 14px 0 #e66000;
+  color:#ffffff;
+  
+}
+
+.btn-orange:active{
+  box-shadow:0 4px 0 #e66000;
+  transform: translateY(10px);
+
+}
+.btn-green{
+  background-color: #32BFA1;
+  box-shadow: 0 14px 0 #299A82;
+  color:#ffffff;
+}
+
+
+.btn-green:active{
+  box-shadow:0 4px 0 #299A82;
+  transform: translateY(10px);
+
+}
+.btn-gray{
+  background-color: #f2f4f6;
+  box-shadow:0 14px 0 #DFE1E2;
+  color:#444444;
+
+}
+
+.btn-gray:active{
+  box-shadow:0 4px 0 #DFE1E2;
+  transform: translateY(10px);
+}
+.btn-small{
+  max-width:350px;
+  height:70px;
+  font-size:26px;
+  margin-bottom:30px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+@media (max-width:640px){
+  body{
+    padding-top:50px;
+    margin-left:20px;
+    margin-right:20px;
+
+  }
+  .page-title{
+    font-size:40px;
+  }
+  .btn{
+    font-size:34px;
+  }
+}
